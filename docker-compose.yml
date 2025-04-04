@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  nudge_backend_image:
+    build:
+      context: .
+    container_name: nudge_backend
+    image: johedotcom/nudge-backend-repository:latest
+    restart: always
+    ports:
+     - "7010:80"

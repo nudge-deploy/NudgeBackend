@@ -1,0 +1,5 @@
+numpy
+pandas
+supabase
+python-dotenv
+fastapi[standard]
